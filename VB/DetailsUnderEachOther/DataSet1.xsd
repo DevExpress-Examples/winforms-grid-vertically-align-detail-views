@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MasterTable" msprop:Generator_UserTableName="MasterTable" msprop:Generator_RowDeletedName="MasterTableRowDeleted" msprop:Generator_TableClassName="MasterTableDataTable" msprop:Generator_RowChangedName="MasterTableRowChanged" msprop:Generator_RowClassName="MasterTableRow" msprop:Generator_RowChangingName="MasterTableRowChanging" msprop:Generator_RowEvArgName="MasterTableRowChangeEvent" msprop:Generator_RowEvHandlerName="MasterTableRowChangeEventHandler" msprop:Generator_TablePropName="MasterTable" msprop:Generator_TableVarName="tableMasterTable" msprop:Generator_RowDeletingName="MasterTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="ItemName" msprop:Generator_UserColumnName="ItemName" msprop:Generator_ColumnPropNameInRow="ItemName" msprop:Generator_ColumnVarNameInTable="columnItemName" msprop:Generator_ColumnPropNameInTable="ItemNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DetailA" msprop:Generator_UserTableName="DetailA" msprop:Generator_RowDeletedName="DetailARowDeleted" msprop:Generator_TableClassName="DetailADataTable" msprop:Generator_RowChangedName="DetailARowChanged" msprop:Generator_RowClassName="DetailARow" msprop:Generator_RowChangingName="DetailARowChanging" msprop:Generator_RowEvArgName="DetailARowChangeEvent" msprop:Generator_RowEvHandlerName="DetailARowChangeEventHandler" msprop:Generator_TablePropName="DetailA" msprop:Generator_TableVarName="tableDetailA" msprop:Generator_RowDeletingName="DetailARowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="MasterID" msprop:Generator_UserColumnName="MasterID" msprop:Generator_ColumnPropNameInRow="MasterID" msprop:Generator_ColumnVarNameInTable="columnMasterID" msprop:Generator_ColumnPropNameInTable="MasterIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ColA" msprop:Generator_UserColumnName="ColA" msprop:Generator_ColumnPropNameInRow="ColA" msprop:Generator_ColumnVarNameInTable="columnColA" msprop:Generator_ColumnPropNameInTable="ColAColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DetailB" msprop:Generator_UserTableName="DetailB" msprop:Generator_RowDeletedName="DetailBRowDeleted" msprop:Generator_TableClassName="DetailBDataTable" msprop:Generator_RowChangedName="DetailBRowChanged" msprop:Generator_RowClassName="DetailBRow" msprop:Generator_RowChangingName="DetailBRowChanging" msprop:Generator_RowEvArgName="DetailBRowChangeEvent" msprop:Generator_RowEvHandlerName="DetailBRowChangeEventHandler" msprop:Generator_TablePropName="DetailB" msprop:Generator_TableVarName="tableDetailB" msprop:Generator_RowDeletingName="DetailBRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="MasterID" msprop:Generator_UserColumnName="MasterID" msprop:Generator_ColumnPropNameInRow="MasterID" msprop:Generator_ColumnVarNameInTable="columnMasterID" msprop:Generator_ColumnPropNameInTable="MasterIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ColB1" msdata:Caption="ColA" msprop:Generator_UserColumnName="ColB1" msprop:Generator_ColumnPropNameInRow="ColB1" msprop:Generator_ColumnVarNameInTable="columnColB1" msprop:Generator_ColumnPropNameInTable="ColB1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="ColB2" msprop:Generator_UserColumnName="ColB2" msprop:Generator_ColumnPropNameInRow="ColB2" msprop:Generator_ColumnVarNameInTable="columnColB2" msprop:Generator_ColumnPropNameInTable="ColB2Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MasterTable" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="DetailA_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DetailA" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="DetailB_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DetailB" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="MasterTable_DetailA" msdata:parent="MasterTable" msdata:child="DetailA" msdata:parentkey="ID" msdata:childkey="MasterID" msprop:Generator_UserRelationName="MasterTable_DetailA" msprop:Generator_RelationVarName="relationMasterTable_DetailA" msprop:Generator_UserChildTable="DetailA" msprop:Generator_UserParentTable="MasterTable" msprop:Generator_ParentPropName="MasterTableRow" msprop:Generator_ChildPropName="GetDetailARows" />
+      <msdata:Relationship name="MasterTable_DetailB" msdata:parent="MasterTable" msdata:child="DetailB" msdata:parentkey="ID" msdata:childkey="MasterID" msprop:Generator_UserRelationName="MasterTable_DetailB" msprop:Generator_RelationVarName="relationMasterTable_DetailB" msprop:Generator_UserChildTable="DetailB" msprop:Generator_UserParentTable="MasterTable" msprop:Generator_ParentPropName="MasterTableRow" msprop:Generator_ChildPropName="GetDetailBRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
