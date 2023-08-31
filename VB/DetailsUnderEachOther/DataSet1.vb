@@ -1,8 +1,8 @@
-﻿Namespace DetailsUnderEachOther
+Namespace DetailsUnderEachOther
 
+    Partial Class DataSet1
 
-    Partial Public Class DataSet1
-        Partial Public Class DetailBDataTable
+        Partial Class DetailBDataTable
         End Class
     End Class
 End Namespace
