@@ -3,11 +3,26 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E259)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# How to display detail views under each other
+# WinForms Data Grid - Display detail views under each other
+
+The WinForms Data Grid displays detail views on tab pages. The grid only shows one detail view at a time if there are multiple detail views on the same level.
+
+This example shows how to vertically align detail views and allow the user to expand them all at the same time.
+
+![WinForms Data Grid - Vertically Align Detail Views](https://raw.githubusercontent.com/DevExpress-Examples/how-to-display-detail-views-under-each-other-e259/15.2.4%2B/media/winforms-grid-master-detail.png)
+
+## Files to Review
+
+* [Form1.cs](./CS/DetailsUnderEachOther/Form1.cs) (VB: [Form1.vb](./VB/DetailsUnderEachOther/Form1.vb))
 
 
-<p>By default, the grid displays detail views on tab pages. If there are several child views at the same level, only one can be seen at a time - the one that appears on the selected detail tab.</p><p>You may wish to add an additional level (GridView) to display a list of relations and allow a user to expand them, to see the actual detail under one other. This example demonstrates how to implement this feature by handling the MasterRow~ events.</p>
+## Documentation
 
-<br/>
+* [Master-Detail Relationships](https://docs.devexpress.com/WindowsForms/3473/controls-and-libraries/data-grid/master-detail-relationships)
+* [Working with Master-Detail Relationships in Code](https://docs.devexpress.com/WindowsForms/732/controls-and-libraries/data-grid/master-detail/working-with-master-detail-relationships-in-code)
 
 
+## See Also
+
+* [How to Display Master-Detail Tables in Separate Grid Controls](https://github.com/DevExpress-Examples/winforms-master-detail-separate-grids)
+* [What Can Cause Properties, Methods, and Events of a Detail View to Fail?](https://docs.devexpress.com/WindowsForms/3082/controls-and-libraries/data-grid/examples/master-detail/what-can-cause-properties-methods-and-events-of-a-detail-view-to-fail)
