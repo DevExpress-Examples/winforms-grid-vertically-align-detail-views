@@ -28,7 +28,7 @@ This example shows how to vertically align detail views and allow the user to ex
 * [How to Display Master-Detail Tables in Separate Grid Controls](https://github.com/DevExpress-Examples/winforms-master-detail-separate-grids)
 * [What Can Cause Properties, Methods, and Events of a Detail View to Fail?](https://docs.devexpress.com/WindowsForms/3082/controls-and-libraries/data-grid/examples/master-detail/what-can-cause-properties-methods-and-events-of-a-detail-view-to-fail)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-grid-vertically-align-detail-views&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-grid-vertically-align-detail-views&~~~was_helpful=no)
 
