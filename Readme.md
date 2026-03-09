@@ -10,7 +10,7 @@ The WinForms Data Grid displays detail views on tab pages. The grid only shows o
 
 This example shows how to vertically align detail views and allow the user to expand them all at the same time.
 
-![WinForms Data Grid - Vertically Align Detail Views](https://raw.githubusercontent.com/DevExpress-Examples/how-to-display-detail-views-under-each-other-e259/15.2.4%2B/media/winforms-grid-master-detail.png)
+![WinForms Data Grid - Vertically Align Detail Views](media/winforms-grid-master-detail.png)
 
 ## Files to Review
 
@@ -34,3 +34,4 @@ This example shows how to vertically align detail views and allow the user to ex
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
